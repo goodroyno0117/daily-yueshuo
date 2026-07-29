@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Bang Bang | 每日乐说</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    background: radial-gradient(ellipse at top, #1b2735 0%, #090a0f 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    color: #fff;
+  }
+  .card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 22px;
+    padding: 40px 28px 32px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    text-align: center;
+    backdrop-filter: blur(8px);
+  }
+  .badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #ffd76e, #ff8a5c);
+    color: #2a1a00;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 4px 14px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+  }
+  .song-title {
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+    background: linear-gradient(135deg, #fff, #ffd9a0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .artist {
+    font-size: 14px;
+    color: #9aa3b2;
+    margin-bottom: 30px;
+  }
+  .platforms {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+  .platform-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 20px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .platform-btn:active { transform: scale(0.97); }
+  .btn-qq {
+    background: linear-gradient(135deg, #31c27c, #24b36b);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(49,194,124,0.35);
+  }
+  .btn-netease {
+    background: #fff;
+    color: #ec4141;
+    border: 2px solid #ec4141;
+    box-shadow: 0 4px 16px rgba(236,65,65,0.15);
+  }
+  .btn-kugou {
+    background: linear-gradient(135deg, #2B8FFF, #1a6fd4);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(43,143,255,0.35);
+  }
+  .platform-icon { font-size: 22px; width: 28px; text-align: center; }
+  .footer {
+    margin-top: 26px;
+    font-size: 11px;
+    color: #6b7280;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="badge">🎵 每日乐说</div>
+  <div class="song-title">Bang Bang</div>
+  <div class="artist">Jessie J / Ariana Grande / Nicki Minaj</div>
+  <div class="platforms">
+    <a class="platform-btn btn-qq" href="https://y.qq.com/n/ryqq/songDetail/002qyr7F1Flgjr">
+      <span class="platform-icon">🎧</span> QQ 音乐打开
+    </a>
+    <a class="platform-btn btn-netease" href="https://music.163.com/song?id=28850212">
+      <span class="platform-icon">🎵</span> 网易云音乐打开
+    </a>
+    <a class="platform-btn btn-kugou" href="https://www.kugou.com/song/5BA5E4AB0BF827509969578D4AAA250C.html">
+      <span class="platform-icon">🎶</span> 酷狗音乐打开
+    </a>
+  </div>
+  <div class="footer">点击上方按钮，自动唤起你手机里的音乐 App</div>
+</div>
+</body>
+</html>
