@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>古巨基 - 友共情 | 每日乐说</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 36px 28px 32px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  .badge {
+    display: inline-block;
+    background: #059669;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 12px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+  }
+  .song-title {
+    font-size: 22px;
+    font-weight: 900;
+    color: #111827;
+    margin-bottom: 4px;
+  }
+  .artist {
+    font-size: 15px;
+    color: #6B7280;
+    margin-bottom: 28px;
+  }
+  .platforms {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .platform-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 20px;
+    border-radius: 14px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+  .platform-btn:active {
+    transform: scale(0.97);
+  }
+  .btn-qq {
+    background: linear-gradient(135deg, #31c27c, #24b36b);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(49,194,124,0.3);
+  }
+  .btn-netease {
+    background: #fff;
+    color: #ec4141;
+    border: 2px solid #ec4141;
+    box-shadow: 0 4px 16px rgba(236,65,65,0.1);
+  }
+  .btn-kugou {
+    background: linear-gradient(135deg, #2B8FFF, #1a6fd4);
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(43,143,255,0.3);
+  }
+  .platform-icon {
+    font-size: 22px;
+    width: 28px;
+    text-align: center;
+  }
+  .footer {
+    margin-top: 24px;
+    font-size: 11px;
+    color: #9CA3AF;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="badge">每日乐说</div>
+  <div class="song-title">友共情</div>
+  <div class="artist">古巨基</div>
+  <div class="platforms">
+    <a class="platform-btn btn-qq" href="https://y.qq.com/n/ryqq/songDetail/004QhxSb3qH6bi">
+      <span class="platform-icon">QQ</span> QQ 音乐打开
+    </a>
+    <a class="platform-btn btn-netease" href="https://music.163.com/song?id=87929">
+      <span class="platform-icon">NM</span> 网易云音乐打开
+    </a>
+    <a class="platform-btn btn-kugou" href="https://www.kugou.com/song/0CFCEAA83FDB5FD71ACA8A3F6BC69955.html">
+      <span class="platform-icon">KG</span> 酷狗音乐打开
+    </a>
+  </div>
+  <div class="footer">点击上方按钮，自动唤起你手机里的音乐 App</div>
+</div>
+</body>
+</html>
