@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>房新华 - 小草 | 每日乐说</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: linear-gradient(160deg, #1a1230 0%, #2d1b3d 50%, #3d2245 100%);
+    color: #f4ecdc;
+    font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .container { max-width: 480px; width: 100%; text-align: center; }
+  .album-cover {
+    width: 220px; height: 220px;
+    background: linear-gradient(135deg, #5C6B3A, #9DAF6B);
+    border-radius: 16px;
+    margin: 0 auto 32px;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 20px 60px rgba(92,107,58,0.4);
+  }
+  .album-cover span { font-size: 64px; }
+  h1 { font-size: 26px; font-weight: 700; margin-bottom: 8px; letter-spacing: 1px; }
+  .artist { color: #c8d4a8; font-size: 15px; margin-bottom: 12px; }
+  .year { color: #b8a08c; font-size: 13px; margin-bottom: 40px; }
+  .section-title { font-size: 12px; letter-spacing: 3px; color: #a09080; text-transform: uppercase; margin-bottom: 20px; }
+  .buttons { display: flex; flex-direction: column; gap: 14px; }
+  .btn {
+    display: flex; align-items: center; justify-content: center;
+    padding: 16px 24px; border-radius: 50px;
+    font-size: 16px; font-weight: 600;
+    text-decoration: none; color: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-qq { background: #1daa1d; box-shadow: 0 6px 24px rgba(29,170,29,0.35); }
+  .btn-netease { background: #C20C0C; box-shadow: 0 6px 24px rgba(194,12,12,0.35); }
+  .footer { margin-top: 48px; color: #786c80; font-size: 12px; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="album-cover"><span>🌱</span></div>
+    <h1>小草</h1>
+    <p class="artist">房新华</p>
+    <p class="year">1985 · 芳草心主题曲 · 41 周年</p>
+    <p class="section-title">Listen Now</p>
+    <div class="buttons">
+      <a class="btn btn-qq" href="https://y.qq.com/n/ryqq/search?w=%E5%B0%8F%E8%8D%89%20%E6%88%BF%E6%96%B0%E5%8D%8E" target="_blank">QQ 音乐</a>
+      <a class="btn btn-netease" href="https://music.163.com/song?id=5274722" target="_blank">网易云音乐</a>
+    </div>
+    <p class="footer">每日乐说 · 第 41 天（大陆 1980s）</p>
+  </div>
+</body>
+</html>
